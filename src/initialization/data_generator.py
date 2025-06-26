@@ -1,7 +1,15 @@
 import numpy as np
 import json
+import requests
 from .weather_api import fetch_weather
 from .historical_weather import fetch_historical_weather
+
+def check_internet_connection():
+    try:
+        requests.get("https://www.google.com", timeout=1)
+        return True
+    except requests.RequestException:
+        return False
 
 def generate_turbine_coordinates():
     center_lat, center_lon = 48.182975, 40.324120
@@ -13,6 +21,21 @@ def generate_turbine_coordinates():
                      y=round(center_lat + (i-(5)/2)*step_lat + np.random.normal(0, deviation_lat/2), 6), z=z)
                 for i in range(6) for j in range(10) for z in [87.0, 130.0]]
     return turbines
+
+def generate_drone_params():
+    return {
+        "flight_time": round(np.random.uniform(20, 60), 1),
+        "max_distance": round(np.random.uniform(5, 20), 1),
+        "speed": round(np.random.uniform(5, 15), 1)
+    }
+
+def generate_priorities(turbine_count):
+    priorities = [dict(id=i+1, priority=round(np.clip(np.random.normal(0.5, 0.2), 0, 1), 1))
+                  for i in range(turbine_count)]
+    for p in priorities:
+        if p["id"] % 2 == 0:  # Лопасти имеют более высокий приоритет
+            p["priority"] = min(p["priority"] + 0.3, 1.0)
+    return priorities
 
 def generate_weather_rostov_historical(stats=None):
     if stats is None:
@@ -35,10 +58,15 @@ def generate_weather_rostov_historical(stats=None):
         "uv_index": round(np.clip(np.random.normal(stats["uv_index"]["mean"], stats["uv_index"]["std"]), 0, 10), 1)
     }
 
-def generate_input_data(lat=48.153877407374345, lon=40.275458225930116, api_key=None, use_api=True, use_historical=True):
-    weather = (fetch_historical_weather(lat, lon, api_key, 15) and generate_weather_rostov_historical(fetch_historical_weather(lat, lon, api_key, 15))) if use_historical and api_key else (fetch_weather(lat, lon, api_key) if use_api and api_key else generate_weather_rostov_historical())
+def generate_input_data(lat=48.153877407374345, lon=40.275458225930116, api_key=None):
+    online = check_internet_connection()
+    weather = (fetch_historical_weather(lat, lon, api_key, 7) and generate_weather_rostov_historical(fetch_historical_weather(lat, lon, api_key, 7))) if online and api_key else generate_weather_rostov_historical()
+    if online and api_key:
+        weather = fetch_weather(lat, lon, api_key) or weather
     turbines = generate_turbine_coordinates()
-    data = {"weather": weather, "turbines": turbines}
+    drone_params = generate_drone_params()
+    priorities = generate_priorities(len(turbines) // 2)
+    data = {"weather": weather, "turbines": turbines, "drone_params": drone_params, "priorities": priorities}
     with open("input_data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4)
     return data
@@ -46,6 +74,5 @@ def generate_input_data(lat=48.153877407374345, lon=40.275458225930116, api_key=
 if __name__ == "__main__":
     lat, lon = 48.153877407374345, 40.275458225930116
     api_key = "c8c007f36b6c4e5d99e92230252606"
-    use_api, use_historical = False, True
-    input_data = generate_input_data(lat, lon, api_key, use_api, use_historical)
+    input_data = generate_input_data(lat, lon, api_key)
     print(json.dumps(input_data, indent=4))

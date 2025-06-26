@@ -1,10 +1,8 @@
 import requests
-import json
 
 def fetch_weather(lat, lon, api_key):
-    url = f"http://api.weatherapi.com/v1/current.json?key={api_key}&q={lat},{lon}&lang=ru"
     try:
-        with requests.get(url, timeout=5, stream=True) as response:
+        with requests.get(f"http://api.weatherapi.com/v1/current.json?key={api_key}&q={lat},{lon}&lang=ru", timeout=5, stream=True) as response:
             response.raise_for_status()
             data = response.json()
         return {
@@ -18,5 +16,5 @@ def fetch_weather(lat, lon, api_key):
             "cloud_cover": round(data["current"]["cloud"], 1),
             "uv_index": round(data["current"]["uv"], 1)
         }
-    except requests.RequestException as e:
+    except requests.RequestException:
         return None
