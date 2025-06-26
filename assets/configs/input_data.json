@@ -1,0 +1,2094 @@
+{
+  "weather": {
+    "timestamp": "2025-06-26T21:39:40.924527Z",
+    "location": {
+      "latitude": 48.153877407374345,
+      "longitude": 40.275458225930116
+    },
+    "parameters": {
+      "wind_speed": 6.388888888888888,
+      "wind_direction": 289,
+      "wind_gust": 10.944444444444445,
+      "precipitation": 0.0,
+      "temperature": 13.7,
+      "humidity": 76,
+      "pressure": 1009.0,
+      "cloud_cover": 8,
+      "uv_index": 0.0,
+      "illumination": 0.0
+    },
+    "source": "WeatherAPI.com"
+  },
+  "uav": {
+    "model_id": "UAV_X100",
+    "flight_time_min": 40,
+    "max_range_km": 12.5,
+    "cruise_speed_mps": 12.0,
+    "payload_capacity_kg": 1.5,
+    "camera": {
+      "model": "Sony Alpha 7R IV",
+      "fov_deg": 78,
+      "resolution": "9504x6336",
+      "sensor_size_mm": [
+        35.9,
+        24.0
+      ],
+      "zoom": "fixed"
+    }
+  },
+  "wind_turbines": [
+    {
+      "id": "WT_001",
+      "location": {
+        "latitude": 48.164456,
+        "longitude": 40.276852
+      },
+      "priority": 2,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_001_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_001_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_002",
+      "location": {
+        "latitude": 48.1639841,
+        "longitude": 40.2866469
+      },
+      "priority": 3,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_002_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_002_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_003",
+      "location": {
+        "latitude": 48.1640283,
+        "longitude": 40.2956929
+      },
+      "priority": 2,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_003_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_003_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_004",
+      "location": {
+        "latitude": 48.1641888,
+        "longitude": 40.3047363
+      },
+      "priority": 3,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_004_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_004_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_005",
+      "location": {
+        "latitude": 48.163667,
+        "longitude": 40.3148734
+      },
+      "priority": 2,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_005_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_005_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_006",
+      "location": {
+        "latitude": 48.1642096,
+        "longitude": 40.3246821
+      },
+      "priority": 3,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_006_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_006_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_007",
+      "location": {
+        "latitude": 48.1644129,
+        "longitude": 40.3336569
+      },
+      "priority": 1,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_007_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_007_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_008",
+      "location": {
+        "latitude": 48.1637136,
+        "longitude": 40.3427585
+      },
+      "priority": 1,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_008_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_008_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_009",
+      "location": {
+        "latitude": 48.1644734,
+        "longitude": 40.3528622
+      },
+      "priority": 2,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_009_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_009_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_010",
+      "location": {
+        "latitude": 48.1638488,
+        "longitude": 40.3617252
+      },
+      "priority": 3,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_010_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_010_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_011",
+      "location": {
+        "latitude": 48.1707758,
+        "longitude": 40.2768048
+      },
+      "priority": 1,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_011_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_011_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_012",
+      "location": {
+        "latitude": 48.1703906,
+        "longitude": 40.2866453
+      },
+      "priority": 2,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_012_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_012_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_013",
+      "location": {
+        "latitude": 48.1705052,
+        "longitude": 40.295796
+      },
+      "priority": 2,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_013_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_013_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_014",
+      "location": {
+        "latitude": 48.1705668,
+        "longitude": 40.304739
+      },
+      "priority": 3,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_014_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_014_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_015",
+      "location": {
+        "latitude": 48.1707171,
+        "longitude": 40.314986
+      },
+      "priority": 1,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_015_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_015_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_016",
+      "location": {
+        "latitude": 48.1702493,
+        "longitude": 40.3243133
+      },
+      "priority": 3,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_016_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_016_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_017",
+      "location": {
+        "latitude": 48.17068,
+        "longitude": 40.333311
+      },
+      "priority": 1,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_017_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_017_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_018",
+      "location": {
+        "latitude": 48.1701862,
+        "longitude": 40.3431961
+      },
+      "priority": 1,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_018_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_018_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_019",
+      "location": {
+        "latitude": 48.1706992,
+        "longitude": 40.3519409
+      },
+      "priority": 3,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_019_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_019_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_020",
+      "location": {
+        "latitude": 48.1705656,
+        "longitude": 40.3622648
+      },
+      "priority": 3,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_020_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_020_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_021",
+      "location": {
+        "latitude": 48.1767594,
+        "longitude": 40.2768991
+      },
+      "priority": 1,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_021_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_021_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_022",
+      "location": {
+        "latitude": 48.1765813,
+        "longitude": 40.2869218
+      },
+      "priority": 2,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_022_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_022_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_023",
+      "location": {
+        "latitude": 48.1768711,
+        "longitude": 40.2951607
+      },
+      "priority": 2,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_023_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_023_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_024",
+      "location": {
+        "latitude": 48.1762644,
+        "longitude": 40.3054187
+      },
+      "priority": 3,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_024_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_024_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_025",
+      "location": {
+        "latitude": 48.1767998,
+        "longitude": 40.3151318
+      },
+      "priority": 3,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_025_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_025_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_026",
+      "location": {
+        "latitude": 48.1764746,
+        "longitude": 40.3243692
+      },
+      "priority": 1,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_026_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_026_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_027",
+      "location": {
+        "latitude": 48.1769059,
+        "longitude": 40.3340173
+      },
+      "priority": 3,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_027_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_027_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_028",
+      "location": {
+        "latitude": 48.1764735,
+        "longitude": 40.3433719
+      },
+      "priority": 2,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_028_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_028_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_029",
+      "location": {
+        "latitude": 48.1768765,
+        "longitude": 40.3520886
+      },
+      "priority": 3,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_029_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_029_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_030",
+      "location": {
+        "latitude": 48.1769068,
+        "longitude": 40.3612883
+      },
+      "priority": 3,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_030_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_030_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_031",
+      "location": {
+        "latitude": 48.1829416,
+        "longitude": 40.2765379
+      },
+      "priority": 1,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_031_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_031_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_032",
+      "location": {
+        "latitude": 48.1826512,
+        "longitude": 40.286787
+      },
+      "priority": 3,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_032_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_032_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_033",
+      "location": {
+        "latitude": 48.182868,
+        "longitude": 40.295316
+      },
+      "priority": 3,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_033_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_033_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_034",
+      "location": {
+        "latitude": 48.1826351,
+        "longitude": 40.3049814
+      },
+      "priority": 3,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_034_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_034_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_035",
+      "location": {
+        "latitude": 48.1829008,
+        "longitude": 40.3140363
+      },
+      "priority": 1,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_035_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_035_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_036",
+      "location": {
+        "latitude": 48.1830771,
+        "longitude": 40.3246023
+      },
+      "priority": 3,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_036_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_036_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_037",
+      "location": {
+        "latitude": 48.1830128,
+        "longitude": 40.3337078
+      },
+      "priority": 3,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_037_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_037_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_038",
+      "location": {
+        "latitude": 48.183085,
+        "longitude": 40.342912
+      },
+      "priority": 1,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_038_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_038_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_039",
+      "location": {
+        "latitude": 48.1830205,
+        "longitude": 40.3518962
+      },
+      "priority": 2,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_039_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_039_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_040",
+      "location": {
+        "latitude": 48.1829937,
+        "longitude": 40.3619912
+      },
+      "priority": 2,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_040_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_040_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_041",
+      "location": {
+        "latitude": 48.1888943,
+        "longitude": 40.2763176
+      },
+      "priority": 3,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_041_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_041_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_042",
+      "location": {
+        "latitude": 48.188927,
+        "longitude": 40.2867604
+      },
+      "priority": 1,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_042_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_042_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_043",
+      "location": {
+        "latitude": 48.1892472,
+        "longitude": 40.2954869
+      },
+      "priority": 1,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_043_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_043_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_044",
+      "location": {
+        "latitude": 48.1894355,
+        "longitude": 40.305435
+      },
+      "priority": 1,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_044_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_044_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_045",
+      "location": {
+        "latitude": 48.1890254,
+        "longitude": 40.3142669
+      },
+      "priority": 2,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_045_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_045_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_046",
+      "location": {
+        "latitude": 48.1890324,
+        "longitude": 40.3245411
+      },
+      "priority": 1,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_046_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_046_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_047",
+      "location": {
+        "latitude": 48.1889044,
+        "longitude": 40.3337592
+      },
+      "priority": 2,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_047_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_047_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_048",
+      "location": {
+        "latitude": 48.1890712,
+        "longitude": 40.3436082
+      },
+      "priority": 2,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_048_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_048_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_049",
+      "location": {
+        "latitude": 48.188927,
+        "longitude": 40.3528917
+      },
+      "priority": 2,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_049_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_049_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_050",
+      "location": {
+        "latitude": 48.1890414,
+        "longitude": 40.3624003
+      },
+      "priority": 2,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_050_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_050_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_051",
+      "location": {
+        "latitude": 48.1956256,
+        "longitude": 40.2767826
+      },
+      "priority": 2,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_051_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_051_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_052",
+      "location": {
+        "latitude": 48.1952494,
+        "longitude": 40.2862731
+      },
+      "priority": 2,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_052_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_052_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_053",
+      "location": {
+        "latitude": 48.1954647,
+        "longitude": 40.2954412
+      },
+      "priority": 2,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_053_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_053_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_054",
+      "location": {
+        "latitude": 48.1952101,
+        "longitude": 40.3056454
+      },
+      "priority": 2,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_054_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_054_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_055",
+      "location": {
+        "latitude": 48.1956827,
+        "longitude": 40.3151599
+      },
+      "priority": 3,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_055_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_055_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_056",
+      "location": {
+        "latitude": 48.1957616,
+        "longitude": 40.3241799
+      },
+      "priority": 3,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_056_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_056_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_057",
+      "location": {
+        "latitude": 48.1951496,
+        "longitude": 40.333118
+      },
+      "priority": 1,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_057_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_057_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_058",
+      "location": {
+        "latitude": 48.1953299,
+        "longitude": 40.343137
+      },
+      "priority": 2,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_058_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_058_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_059",
+      "location": {
+        "latitude": 48.1954144,
+        "longitude": 40.3527312
+      },
+      "priority": 3,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_059_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_059_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WT_060",
+      "location": {
+        "latitude": 48.1957104,
+        "longitude": 40.3625676
+      },
+      "priority": 1,
+      "safe_distance_m": 20,
+      "geometry": {
+        "tower_height_m": 80,
+        "blade_length_m": 45,
+        "hub_height_m": 90
+      },
+      "inspection_points": [
+        {
+          "point_id": "WT_060_HUB",
+          "relative_position": "hub",
+          "offset_m": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "point_id": "WT_060_BLADE_TIP",
+          "relative_position": "blade_tip",
+          "offset_m": [
+            0,
+            45,
+            90
+          ]
+        }
+      ]
+    }
+  ],
+  "mission": {
+    "mission_id": "M_001",
+    "type": "full_inspection",
+    "constraints": {
+      "max_duration_min": 30,
+      "weather_thresholds": {
+        "wind_speed_max": 15,
+        "precipitation_max": 2.0,
+        "temperature_min": -5,
+        "temperature_max": 35
+      }
+    }
+  }
+}
